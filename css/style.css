@@ -300,6 +300,7 @@ html, body {
 }
 .header {
   width: 100%;
+  flex: 1 1 auto;
 }
 .header__row {
   display: flex;
@@ -510,6 +511,9 @@ html, body {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+}
+.main-screen__text {
+  flex: 1 1 auto;
 }
 .main-screen__title {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
