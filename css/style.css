@@ -1010,13 +1010,13 @@ html, body {
 }
 .form__btn {
   display: inline-block;
-  color: #fff;
+  color: #090909;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 19px 80px;
   background-color: transparent;
-  background-color: #000;
+  background-color: #c07a47;
   position: relative;
   transition: all 0.5s ease 0s;
 }
@@ -1027,11 +1027,8 @@ html, body {
   height: 100%;
   top: 0;
   left: 50%;
-  background-color: #c07a47;
+  background-color: #c2c2c2;
   transition: all 0.5s ease 0s;
-}
-.form__btn:hover {
-  color: #090909;
 }
 .form__btn:hover:after {
   width: 100%;
