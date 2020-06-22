@@ -445,7 +445,7 @@ html, body {
   transition: all 0.5s ease 0s;
 }
 .menu__link span {
-  display: block;
+  display: inline-block;
   line-height: 30px;
   position: relative;
 }
@@ -622,6 +622,7 @@ html, body {
     width: 12px;
     height: 2px;
     background-color: #000;
+    transition: all 0.3s ease 0s;
   }
   .top-footer__title:before {
     left: 8px;
@@ -630,6 +631,15 @@ html, body {
   .top-footer__title:after {
     left: 0;
     transform: rotate(45deg);
+  }
+  .top-footer__title.active:before, .top-footer__title.active:after {
+    background-color: #e13737;
+  }
+  .top-footer__title.active:before {
+    transform: rotate(45deg);
+  }
+  .top-footer__title.active:after {
+    transform: rotate(-45deg);
   }
 }
 @media (max-width: 992.98px) and (max-width: 992.98px) {
